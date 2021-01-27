@@ -37,5 +37,15 @@ namespace GenericsIntro
 
             items[items.Length - 1] = item;// array in son index i array in eleman sayısının 1 eksigidir.
         }
+
+        public int Length
+        {
+            get { return items.Length; }// Bu yapı eleman sayısını verir.
+        }
+
+        public T[] Items
+        {
+            get { return items; }// Bu yapı array in elemanıni getirir.
+        }
     }
 }
